@@ -1,9 +1,9 @@
 <template name="MainLayout">
     <header>
         <h1>Meteor Recipe Book</h1>
-        {{loginButtons}}
+        {{> loginButtons}}
     </header>
     <main>
-        {{>Template.dynamic template=main}}
+        {{> Template.dynamic template=main}}
     </main>
 </template>
